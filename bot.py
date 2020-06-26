@@ -23,6 +23,7 @@ async def check(ctx):
         return False
     else:
         return True
+
 @bot.command()
 async def test(ctx):
     await ctx.send("Hello this is a test")
